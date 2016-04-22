@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12149F7A1CC9E5BE00FFB215 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12149F781CC9E5BE00FFB215 /* Main.storyboard */; };
+		12149F7C1CC9E5BE00FFB215 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12149F7B1CC9E5BE00FFB215 /* Assets.xcassets */; };
+		12149F7F1CC9E5BE00FFB215 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12149F7D1CC9E5BE00FFB215 /* LaunchScreen.storyboard */; };
+		12149F8E1CC9E6B600FFB215 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12149F881CC9E6B600FFB215 /* AppDelegate.m */; };
+		12149F8F1CC9E6B600FFB215 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12149F891CC9E6B600FFB215 /* Info.plist */; };
+		12149F901CC9E6B600FFB215 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12149F8A1CC9E6B600FFB215 /* main.m */; };
+		12149F911CC9E6B600FFB215 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12149F8C1CC9E6B600FFB215 /* ViewController.m */; };
+		12149FA91CCA3F0B00FFB215 /* ZYCImageCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12149FA51CCA3F0B00FFB215 /* ZYCImageCarouselView.m */; };
+		12149FB31CCA45F100FFB215 /* ZYCImageCarouselView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 12149FB21CCA45F100FFB215 /* ZYCImageCarouselView.bundle */; };
+		81D27AFECAEAE5B9A35C9597 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9FD17EB7BEBA69822F93A8 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12149F6C1CC9E5BE00FFB215 /* ZYCImageCarousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYCImageCarousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12149F791CC9E5BE00FFB215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12149F7B1CC9E5BE00FFB215 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12149F7E1CC9E5BE00FFB215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12149F871CC9E6B600FFB215 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		12149F881CC9E6B600FFB215 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12149F891CC9E6B600FFB215 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12149F8A1CC9E6B600FFB215 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12149F8B1CC9E6B600FFB215 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		12149F8C1CC9E6B600FFB215 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12149FA41CCA3F0B00FFB215 /* ZYCImageCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCImageCarouselView.h; sourceTree = "<group>"; };
+		12149FA51CCA3F0B00FFB215 /* ZYCImageCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCImageCarouselView.m; sourceTree = "<group>"; };
+		12149FB21CCA45F100FFB215 /* ZYCImageCarouselView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYCImageCarouselView.bundle; sourceTree = "<group>"; };
+		400AC8CB97181C95E1F69170 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9A9FD17EB7BEBA69822F93A8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5E0ABFFEEE791248A31530F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12149F691CC9E5BE00FFB215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D27AFECAEAE5B9A35C9597 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12149F631CC9E5BE00FFB215 = {
+			isa = PBXGroup;
+			children = (
+				12149F6E1CC9E5BE00FFB215 /* ZYCImageCarousel */,
+				12149F6D1CC9E5BE00FFB215 /* Products */,
+				E87D22262662B6DEF56961FC /* Pods */,
+				AFAB431F214EAA9A0E4282A3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		12149F6D1CC9E5BE00FFB215 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12149F6C1CC9E5BE00FFB215 /* ZYCImageCarousel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12149F6E1CC9E5BE00FFB215 /* ZYCImageCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				12149F861CC9E6B600FFB215 /* Demo */,
+				12149F781CC9E5BE00FFB215 /* Main.storyboard */,
+				12149F7B1CC9E5BE00FFB215 /* Assets.xcassets */,
+				12149F7D1CC9E5BE00FFB215 /* LaunchScreen.storyboard */,
+				12149F6F1CC9E5BE00FFB215 /* Supporting Files */,
+			);
+			path = ZYCImageCarousel;
+			sourceTree = "<group>";
+		};
+		12149F6F1CC9E5BE00FFB215 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12149F861CC9E6B600FFB215 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				12149FA31CCA3F0B00FFB215 /* ZYCImageCarouselView */,
+				12149F871CC9E6B600FFB215 /* AppDelegate.h */,
+				12149F881CC9E6B600FFB215 /* AppDelegate.m */,
+				12149F8B1CC9E6B600FFB215 /* ViewController.h */,
+				12149F8C1CC9E6B600FFB215 /* ViewController.m */,
+				12149F891CC9E6B600FFB215 /* Info.plist */,
+				12149F8A1CC9E6B600FFB215 /* main.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		12149FA31CCA3F0B00FFB215 /* ZYCImageCarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				12149FB21CCA45F100FFB215 /* ZYCImageCarouselView.bundle */,
+				12149FA41CCA3F0B00FFB215 /* ZYCImageCarouselView.h */,
+				12149FA51CCA3F0B00FFB215 /* ZYCImageCarouselView.m */,
+			);
+			name = ZYCImageCarouselView;
+			path = ../../../ZYCImageCarouselView;
+			sourceTree = "<group>";
+		};
+		AFAB431F214EAA9A0E4282A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A9FD17EB7BEBA69822F93A8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E87D22262662B6DEF56961FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5E0ABFFEEE791248A31530F /* Pods.debug.xcconfig */,
+				400AC8CB97181C95E1F69170 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12149F6B1CC9E5BE00FFB215 /* ZYCImageCarousel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12149F831CC9E5BE00FFB215 /* Build configuration list for PBXNativeTarget "ZYCImageCarousel" */;
+			buildPhases = (
+				3B476DDBD48DE2207909323C /* Check Pods Manifest.lock */,
+				12149F681CC9E5BE00FFB215 /* Sources */,
+				12149F691CC9E5BE00FFB215 /* Frameworks */,
+				12149F6A1CC9E5BE00FFB215 /* Resources */,
+				A12F30AA1C2BACAE95D25FD4 /* Embed Pods Frameworks */,
+				41E8CD59FF0A07095097823A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYCImageCarousel;
+			productName = ZYCImageCarousel;
+			productReference = 12149F6C1CC9E5BE00FFB215 /* ZYCImageCarousel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12149F641CC9E5BE00FFB215 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zyc;
+				TargetAttributes = {
+					12149F6B1CC9E5BE00FFB215 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4H7NTHL9BA;
+					};
+				};
+			};
+			buildConfigurationList = 12149F671CC9E5BE00FFB215 /* Build configuration list for PBXProject "ZYCImageCarousel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12149F631CC9E5BE00FFB215;
+			productRefGroup = 12149F6D1CC9E5BE00FFB215 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12149F6B1CC9E5BE00FFB215 /* ZYCImageCarousel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12149F6A1CC9E5BE00FFB215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12149F8F1CC9E6B600FFB215 /* Info.plist in Resources */,
+				12149F7F1CC9E5BE00FFB215 /* LaunchScreen.storyboard in Resources */,
+				12149F7C1CC9E5BE00FFB215 /* Assets.xcassets in Resources */,
+				12149FB31CCA45F100FFB215 /* ZYCImageCarouselView.bundle in Resources */,
+				12149F7A1CC9E5BE00FFB215 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B476DDBD48DE2207909323C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		41E8CD59FF0A07095097823A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A12F30AA1C2BACAE95D25FD4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12149F681CC9E5BE00FFB215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12149F911CC9E6B600FFB215 /* ViewController.m in Sources */,
+				12149F901CC9E6B600FFB215 /* main.m in Sources */,
+				12149F8E1CC9E6B600FFB215 /* AppDelegate.m in Sources */,
+				12149FA91CCA3F0B00FFB215 /* ZYCImageCarouselView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		12149F781CC9E5BE00FFB215 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12149F791CC9E5BE00FFB215 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12149F7D1CC9E5BE00FFB215 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12149F7E1CC9E5BE00FFB215 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12149F811CC9E5BE00FFB215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		12149F821CC9E5BE00FFB215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12149F841CC9E5BE00FFB215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5E0ABFFEEE791248A31530F /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/ZYCImageCarousel/Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyc.ZYCImageCarousel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12149F851CC9E5BE00FFB215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 400AC8CB97181C95E1F69170 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/ZYCImageCarousel/Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyc.ZYCImageCarousel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12149F671CC9E5BE00FFB215 /* Build configuration list for PBXProject "ZYCImageCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12149F811CC9E5BE00FFB215 /* Debug */,
+				12149F821CC9E5BE00FFB215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12149F831CC9E5BE00FFB215 /* Build configuration list for PBXNativeTarget "ZYCImageCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12149F841CC9E5BE00FFB215 /* Debug */,
+				12149F851CC9E5BE00FFB215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12149F641CC9E5BE00FFB215 /* Project object */;
+}
